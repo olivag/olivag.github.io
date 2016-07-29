@@ -11,7 +11,7 @@ short-description: A production quality SaaS app that allows users to create the
 
 ## Summary
 
-Blocipedia allows users to create and collaborate on their own wikis privately or publicly.
+[Blocipedia](https://olivag-blocipedia.herokuapp.com) allows users to create and collaborate on their own wikis privately or publicly. View repository on [GitHub](https://github.com/olivag/blocipedia).
 
 ## Explanation
 
