@@ -10,7 +10,7 @@ short-description: An analytics service to track events on websites.
 
 ## Summary
 
-[Blocmetrics](https://olivag-blocmetrics.herokuapp.com) is an API tracking service and reporting tool that you can use with web apps to track user activity and report results. View repository in [GitHub](https://github.com/olivag/blocmetrics).
+[Blocmetrics](https://olivag-blocmetrics.herokuapp.com) is an API tracking service and reporting tool that you can use with web apps to track user activity and report results. View repository on [GitHub](https://github.com/olivag/blocmetrics).
 
 ## Explanation
 
