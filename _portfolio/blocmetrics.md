@@ -10,7 +10,7 @@ short-description: An analytics service to track events on websites.
 
 ## Summary
 
-Blocmetrics builds an analytics service and reporting tool that you can use with web apps to track user activity.
+[Blocmetrics](https://olivag-blocmetrics.herokuapp.com) is an API tracking service and reporting tool that you can use with web apps to track user activity and report results. View repository in [GitHub](https://github.com/olivag/blocmetrics).
 
 ## Explanation
 
@@ -22,20 +22,23 @@ There are plenty of good analytic services, but that doesn't mean you can't buil
 
 ## Problem
 
-1. Allows users to sign up for a free account by providing a user name, password and email
-  * Blocmetrics' authentication system should allow users to sign up and send emails for account confirmation
-2. Allows users to sign in and out of Blocmetrics
-3. Allows users to register an application with Blocmetrics for tracking
-  * Uses URL as unique attribute
-4. Associate events with registered applications
-  * Generates an event model
-5. Should receive incoming events in an API controller
-6. Allows users to use JavaScript to capture client-side events in the application
-7. Displays a graph of events for each registered application
+- Allows users to sign up for a free account by providing a user name, password and email
+- Blocmetrics' authentication system should allow users to sign up and send emails for account confirmation
+- Allows users to sign in and out of Blocmetrics
+- Allows users to register an application with Blocmetrics for tracking
+- Uses URL as unique attribute
+- Associate events with registered applications
+- Generates an event model
+- Should receive incoming events in an API controller
+- Allows users to use JavaScript to capture client-side events in the application
+- Displays a graph of events for each registered application
 
 ## Solution
 
-I incorporated the Devise gem for authentication. It allowed users to sign up and send emails for account confirmation. It also gave users a way to sign in and out of the app. I included the Pundit gem for authorization, which allowed me to set up scopes for different controllers that would only allow certain users with the specified user roles to access specific areas of the app. I generated a Registered Application model that was associated with the user as well as an Event model to associate it with the registered application. Generated an API controller and routes in order to give Blocmetrics the ability to recieve incoming events from registered applications. Used Cross-Origin Resource Sharing (CORS) to allow cross-origin requests in a controlled manner without opening up security vulnerabilities. Incorporated the Chartkick gem to generate an events pie chart.
+I incorporated the Devise gem for authentication. It allowed users to sign up and send emails for account confirmation. It also gave users a way to sign in and out of the app. I included the Pundit gem for authorization, which allowed me to set up scopes for different controllers that would only allow certain users with the specified user roles to access specific areas of the app. 
+
+
+I generated a Registered Application model that was associated with the user as well as an Event model to associate it with the registered application. Generated an API controller and routes in order to give Blocmetrics the ability to recieve incoming events from registered applications. Used Cross-Origin Resource Sharing (CORS) to allow cross-origin requests in a controlled manner without opening up security vulnerabilities. Incorporated the Chartkick gem to generate an events pie chart.
 
 ## Results
 

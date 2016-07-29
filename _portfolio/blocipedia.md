@@ -19,17 +19,17 @@ Blocipedia is a great way to collaborate on community-sourced content. It allows
 
 ## Problem
 
-1. Allows users to sign up for a free account by providing a user name, password and email
-  * Blocipedia's authentication system should allow users to sign up and send emails for account confirmation
-2. Allows users to sign in and out of Blocipedia
-3. As a developer, offer three user roles: admin, standard, or premium
-  * Users should default to the standard role when they are first created
-4. Allows users with standard accounts to create, read, update, and delete public wikis
-5. Allows users to upgrade their account from a standard (free) to premium (paid plan) account
-  * Private wikis should remain private as long as users maintain their premium service. If they downgrade, all of their private wikis should become public
-6. Allows premium users to create private wikis
-7. Allows all users to edit their wikis using Markdown syntax
-8. Allows Users to add and remove collaborators from a private wiki via its edit page
+- Allows users to sign up for a free account by providing a user name, password and email
+- Blocipedia's authentication system should allow users to sign up and send emails for account confirmation
+- Allows users to sign in and out of Blocipedia
+- As a developer, offer three user roles: admin, standard, or premium
+- Users should default to the standard role when they are first created
+- Allows users with standard accounts to create, read, update, and delete public wikis
+- Allows users to upgrade their account from a standard (free) to premium (paid plan) account
+- Private wikis should remain private as long as users maintain their premium service. If they downgrade, all of their private wikis should become public
+- Allows premium users to create private wikis
+- Allows all users to edit their wikis using Markdown syntax
+ Allows Users to add and remove collaborators from a private wiki via its edit page
 
 ## Solution
 
